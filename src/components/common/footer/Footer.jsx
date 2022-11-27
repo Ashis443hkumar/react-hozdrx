@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import SubHeading from '../subHeading/SubHeading'
+
 export default function Footer() {
   return (
     <section className="footer">
@@ -17,6 +18,7 @@ export default function Footer() {
           </div> 
           <div className="col-md-3"> 
            <SubHeading title="RECENT POSTS" />
+
            <div className=""> 
               <div>
                  <h6> Aenean commodo ligula eget dolor</h6>
