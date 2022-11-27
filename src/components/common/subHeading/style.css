@@ -1,0 +1,32 @@
+.subHeading{
+  margin: 30px 0px 25px 0px;
+
+}
+.subHeading h3{
+   color: #555555;
+   font-size: 23px;
+   position: relative;
+   font-weight: 400;
+   padding: 15px 0px 8px 0px;
+}
+.subHeading h3::before{
+  position: absolute;
+  content: " ";
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: #dddd;
+  top: 50px;
+  left:0px;
+}
+.subHeading h3::after{
+  position: absolute;
+  content: " ";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  background-color: #169fe6;
+  top: 49px;
+  left: 20px;
+
+}

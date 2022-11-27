@@ -1,0 +1,26 @@
+.home5Cart{
+  background-color: #eeee;
+  padding: 30px 0;
+}
+.cartNumber{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 90px;
+  background-color: crimson;
+  color: #ffff;
+}
+.home5carrt h3{
+  padding: 20px 20px;
+  font-size: 26px;
+
+}
+.cart5{
+   background-color: crimson;
+   padding: 8px 25px;
+   color: #ffff;
+   text-decoration: none;
+
+}

@@ -1,0 +1,10 @@
+.head_left i{
+  margin-right: 10px;
+}
+.head_left label{
+  margin-right: 10px;
+}
+
+.head_right{
+  text-align: right;
+}

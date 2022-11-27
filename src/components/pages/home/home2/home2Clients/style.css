@@ -1,0 +1,19 @@
+.recentpostnew{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.recentpostnew img{
+  width: 100%;
+  height: 100px;
+  margin-right: 10px;
+}
+ p.commentcart{
+  font-size: 13px;
+  color: #d2d2d8;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.recentpostnew .ptag{
+  font-size: 13px;
+}
