@@ -6,25 +6,21 @@ export default function HomeTeam() {
   const data = [
     {
       id: '1',
-      cover:
-        'https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=600',
-
-      title: 'Hello StackBlitz! h1.... ',
-      desc: 'Start editing to see some magic happen :)',
+      title: 'JONATHAN DOWER ',
+      desc: 'Nunc aliquet tincidunt metus, sit amet mattis lectus sodales ac. Suspendisse rhoncus dictum eros, ut egestas eros luctus eget. Nam nibh sem, mattis et feugiat ut, porttitor nec risus',
+      cover: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: '2',
-      cover:
-        'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600',
-      title: 'Hello StackBlitz! h2.... ',
-      desc: 'Start editing to see some magic happen :)',
+      title: 'JONATHAN DOWER',
+      desc: 'Metus aliquet tincidunt metus, sit amet mattis lectus sodales ac. Suspendisse rhoncus dictum eros, ut egestas eros luctus eget. Nam nibh sem, mattis et feugiat ut, porttitor nec risus',
+      cover: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: '3',
-      cover:
-        'https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600',
-      title: 'Hello StackBlitz! h3.... ',
-      desc: 'Start editing to see some magic happen :)',
+      title: 'JONATHAN DOWER',
+      desc: 'Donec convallis, metus nec tempus aliquet, nunc metus adipiscing leo, a lobortis nisi dui ut odio. Nullam ultrices, eros accumsan vulputate faucibus, turpis tortor dictum.:)',
+      cover: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
   ];
   return (
@@ -39,11 +35,9 @@ export default function HomeTeam() {
         {data.map((val) => (
           <div className="box">
             <div className="boximg">
-              <img src={val.cover} alt="ghg" />
-              <div className="boxtext">
-                <h1>{val.title}</h1>
                 <p>{val.desc}</p>
-              </div>
+                <img src={val.cover} />
+                <h5>{val.title}</h5>
             </div>
           </div>
         ))}

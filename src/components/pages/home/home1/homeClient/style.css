@@ -1,0 +1,29 @@
+.clienttt p{
+  font-size: 16px;
+  
+}
+.ullist{
+  text-align: left;
+  padding: 0px ;
+}
+
+.ullist li i {
+  width: 20px;height: 20px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 8px;
+}
+.clientsay p{
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.clientsay p span{
+  background-color: crimson;
+}
+.clientsay{
+  text-align: left;
+}

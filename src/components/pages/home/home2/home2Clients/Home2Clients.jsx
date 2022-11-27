@@ -27,8 +27,8 @@ export default function Home2Clients() {
             </div>
           </div>
           <div className="col-md-6">
-            <h3>Recent Post</h3>
-            <hr/>
+          <SubHeading title='Recent Post' />
+
             <div className="recentpostnew">
               <img src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
               <div className="">

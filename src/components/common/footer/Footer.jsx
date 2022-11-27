@@ -1,13 +1,13 @@
 import React from 'react'
 import "./footer.css"
+import SubHeading from '../subHeading/SubHeading'
 export default function Footer() {
   return (
     <section className="footer">
       <div className="container">
         <div className="row">
           <div className="col-md-3"> 
-           <h3>ABOUT US</h3>
-           <hr/>
+           <SubHeading title="ABOUT US" />
            <div className=""> 
                <p>Donec earum rerum hic tenetur ans sapiente delectus, ut aut reiciendise voluptat maiores alias consequaturs aut perferendis doloribus asperiores.</p>
                <p><i class="fa-solid fa-location-dot"></i> <strong>Address </strong>: #2021 Lorem Ipsum </p>
@@ -16,8 +16,7 @@ export default function Footer() {
            </div>
           </div> 
           <div className="col-md-3"> 
-           <h3>RECENT POSTS</h3>
-           <hr/>
+           <SubHeading title="RECENT POSTS" />
            <div className=""> 
               <div>
                  <h6> Aenean commodo ligula eget dolor</h6>
@@ -38,8 +37,7 @@ export default function Footer() {
            </div>
           </div> 
           <div className="col-md-3"> 
-           <h3>RECENT POSTS</h3>
-           <hr/>
+           <SubHeading title="TWITTER" />
            <div className=""> 
               <div>
                  <h6> Aenean commodo ligula eget dolor</h6>
@@ -60,8 +58,7 @@ export default function Footer() {
            </div>
           </div> 
           <div className="col-md-3"> 
-             <h3>FLICKR GALLERY</h3>
-             <hr/>
+           <SubHeading title="FLICKR GALLERY" /> 
                
           </div>
 
